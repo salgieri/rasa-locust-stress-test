@@ -1,0 +1,2 @@
+#!/bin/bash
+locust --host=http://10.2.1.6:5005 --locustfile rasa_socket.py --port=80
